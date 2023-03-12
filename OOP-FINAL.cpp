@@ -326,14 +326,14 @@ int main()
 {
 
     Student stu;
-    stu.addStudent("ST123456", "Egemen", "Inanc", "CS", "egemen1692@hotmail.com");
-    stu.addStudent("ST234567", "Bhavya", "Kajani", "CS", "bhavyak@gmail.com");
-    stu.addStudent("ST234568", "Efe", "Turksen", "CS", "efeturksen@gmail.com");
+    stu.addStudent("ST123456", "Egemen", "Inanc", "CS", "egemen161143542@hotmail.com");
+    stu.addStudent("ST234567", "Bhavya", "Kajani", "CS", "bk2141@gmail.com");
+    stu.addStudent("ST234568", "Efe", "Turksen", "CS", "ET@gmail.com");
     stu.removeData("ST123456");
     stu.display();
 
     Teacher teach;
-    teach.addTeacher("TC123456", "Roman", "Podraza", "CS", "Podraza@pw.edu.pl");
+    teach.addTeacher("TC123456", "R", "P", "CS", "RP@pw.edu.pl");
     teach.display();
 
     Appointment app;
